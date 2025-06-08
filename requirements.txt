@@ -1,7 +1,7 @@
+numpy==1.24.0
 streamlit
 firebase-admin
 pandas
-numpy
 scikit-learn
 transformers==4.37.2
 torch==2.2.2
