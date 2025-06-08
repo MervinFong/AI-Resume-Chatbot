@@ -1,0 +1,157 @@
+MBTI Integration in JobConnect (Full Guide)
+
+🔍 What is MBTI?
+MBTI stands for Myers-Briggs Type Indicator. It classifies personality into 16 types based on 4 dichotomies:
+1. Introversion (I) vs. Extraversion (E)
+2. Sensing (S) vs. Intuition (N)
+3. Thinking (T) vs. Feeling (F)
+4. Judging (J) vs. Perceiving (P)
+
+🧠 MBTI in JobConnect
+- Each user completes a 70-question form
+- The result is stored with a timestamp in Firestore
+- Used to customize job suggestions and chatbot answers
+
+📊 How It’s Used
+- Personality-aware chatbot prompts
+- “Based on your MBTI type, you may enjoy roles in...”
+- Historical MBTI logs to track self-development
+
+✅ Benefits
+- Improves job satisfaction by aligning personality with job type
+
+ESTJ - Military, business administrators, managers, police/detective work, judges, financial officers, teachers,
+sales representatives, government workers, insurance agents, underwriters, nursing administrators, trade and
+technical teachers, Natural leaders, they work best when they are in charge and enforcing the rules.
+ISTJ - Business executives, administrators and managers, accountants, police, detectives, judges, lawyers,
+medical doctors, dentists, computer programmers, systems analysts, computer specialists, auditors,
+electricians, math teachers, mechanical engineers, steelworkers, technicians. Similar to the ESTJ, they have
+a knack for detail and memorization, but work more behind the scenes instead of up front as a leader.
+ESFJ - Home economics, nursing, teaching, administrators, child care, family practice physician, clergy, office
+managers, counselors, social workers, bookkeeping, accounting, secretaries, organization leaders, dental
+assistants, radiological technologists, receptionists, religious educators, speech pathologists.. They do best in
+jobs where they can apply their natural warmth at building relationships with other people.
+ISFJ - Interior decorators, designers, nurses, administrators, managers, secretaries, child care/early childhood
+development, social work, counselors, paralegals, clergy, office managers, shopkeepers, bookkeepers,
+gardeners, clerical supervisors, curators, family practice physicians, health service workers, librarians, medical
+technologists, typists. Tradition-oriented and down-to-earth, they do best in jobs where they can help
+people achieve their goals, or where structure is needed.
+ESTP - Sales representatives, marketers, police, detectives, paramedics, medical technicians, computer
+technicians, computer technical support, entrepreneurs, comedians, agents, firefighters, military, auditors,
+carpenters, craft workers, farmers, laborers, service workers, transportation operatives. They have a gift for
+reacting to and solving immediate problems, and persuading other people.
+ISTP - Police, detectives, forensic pathologists, computer programmers, system analysts, computer specialists,
+engineers, carpenters, mechanics, pilots, drivers, athletes, entrepreneurs, firefighters, paramedics,
+construction workers, dental hygienists, electrical engineers, farmers, military, probation officers, steelworkers,
+transportation operatives. With the ability to stay calm under pressure, they excel in any job which
+requires immediate action.
+ESFP - Actors, painters, comedians, sales representatives, teachers, counselors, social workers, child care,
+fashion designers, interior decorators, consultants, photographers, musicians, human resources managers,
+clerical supervisors, coaches, factory supervisors, food service workers, receptionists, recreation workers,
+religious educators, respiratory therapists. Optimistic and fun-loving, their enthusiasm is great for
+motivating others.
+ISFP - Artists, musicians, composers, designers, child care workers, social workers, counselors, teachers,
+veterinarians, forest rangers, bookkeepers, carpenters, personal service workers, clerical supervisors,
+secretaries, dental and medical staffers, waiters and waitresses, chefs, nurses, mechanics, physical therapists,
+x-ray technicians. They tend to do well in the arts, as well as helping others and working with people.
+ENFJ - Teachers, consultants, psychiatrists, social workers, counselors, clergy, sales representative, human
+resources, managers, events coordinators, politicians, diplomats, writers, actors, designers, musicians,
+religious workers, writers. They have a gift of encouraging others actualize themselves, and provide
+excellent leadership.
+INFJ - Counselors, clergy, missionaries, teachers, medical doctors, dentists, chiropractors, psychologists,
+psychiatrists, writers, musicians, artists, psychics, photographers, child care workers, education consultants,
+librarians, marketers, scientists, social workers. Blessed with an idealistic vision, they do best when they
+seek to make that vision a reality.
+ENFP - Actors, journalists, writers, musicians, painters, consultants, psychologists, psychiatrists,
+entrepreneurs, teachers, counselors, politicians, television reporters, marketers, scientists, sales
+representatives, artists, clergy, public relations, social scientists, social workers. Very creative and funloving, they excel at careers which allow them to express their ideas and spontaneity.
+INFP - Writers, artists, counselors, social workers, English teachers, fine arts teachers, child care workers,
+clergy, missionaries, psychologists, psychiatrists, scientists, political activists, editors, education consultants,
+journalists, religious educators, social scientists. Driven by a strong sense of personal values, they are
+also highly creative and can offer support from behind the scenes.
+ENTJ - Business executives, CEOs, organization founders, business administrators, managers, entrepreneurs,
+judges, lawyers, computer consultants, university professors, politicians, credit investigators, labor relations
+worker, marketing department manager, mortgage banker, systems analysts, scientists. They are born to
+lead and can steer the organization towards their vision, using their excellent organizing and
+understanding of what needs to get done.
+INTJ - Scientists, engineers, professors, teachers, medical doctors, dentists, corporate strategists, organization
+founders, business administrators, managers, military, lawyers, judges, computer programmers, system
+analysts, computer specialists, psychologists, photographers, research department managers, researchers,
+university instructors. They have a particular skill at grasping difficult, complex concepts and building
+strategies.
+ENTP - Entrepreneurs, lawyers, psychologists, photographers, consultants, sales representatives, actors,
+engineers, scientists, inventors, marketers, computer programmers, comedians, computer analysts, credit
+investigators, journalists, psychiatrists, public relations, designers, writers, artists, musicians, politicians. Very
+freedom-oriented, they need a career which allows them to act independent and express their creativity
+and insight.
+INTP - Physicists, chemists, biologists, photographers, strategic planners, mathematicians, university
+professors, computer programmers, computer animators, technical writers, engineers, lawyers, forensic
+researchers, writers, artists, psychologists, social scientists, systems analysts, researchers, surveyors. Highly
+analytical, they can discover connections between two seemingly unrelated things, and work best
+when allowed to use their imagination and critical thinking.
+
+The 16 MBTI® Personality Types
+The Myers-Briggs® system consists of four preference pairs that reflect different aspects of personality—opposite ways to direct and receive energy through Extraversion (E) or Introversion (I), take in information with Sensing (S) or Intuition (N), come to conclusions using Thinking (T) or Feeling (F), and approach the outside world through Judging (J) or Perceiving (P). Most people find that one preference, in a preference pair, best describes their natural way of doing things, where they feel the most comfortable being themselves, outside of any roles they play in life. When the letters for each of these preferences are combined, 16 distinct personality types form which consist of different characteristics unique to that type. What is your type?
+
+ISTJ
+Quiet, serious, earn success by being thorough and dependable. Practical, matter-of-fact, realistic, and responsible. Decide logically what should be done and work toward it steadily, regardless of distractions. Take pleasure in making everything orderly and organized—their work, their home, their life. Value traditions and loyalty.
+
+
+ISFJ
+Quiet, friendly, responsible, and conscientious. Committed and steady in meeting their obligations. Thorough, painstaking, and accurate. Loyal, considerate, notice and remember specifics about people who are important to them, concerned with how others feel. Strive to create an orderly and harmonious environment at work and at home.
+
+
+INFJ
+Seek meaning and connection in ideas, relationships, and material possessions. Want to understand what motivates people and are insightful about others. Conscientious and committed to their firm values. Develop a clear vision about how best to serve the common good. Organized and decisive in implementing their vision.
+
+
+INTJ
+Have original minds and great drive for implementing their ideas and achieving their goals. Quickly see patterns in external events and develop long-range explanatory perspectives. When committed, organize a job and carry it through. Skeptical and independent, have high standards of competence and performance—for themselves and others.
+
+
+ISTP
+Tolerant and flexible, quiet observers until a problem appears, then act quickly to find workable solutions. Analyze what makes things work and readily get through large amounts of data to isolate the core of practical problems. Interested in cause and effect, organize facts using logical principles, value efficiency.
+
+
+ISFP
+Quiet, friendly, sensitive, and kind. Enjoy the present moment, what's going on around them. Like to have their own space and to work within their own time frame. Loyal and committed to their values and to people who are important to them. Dislike disagreements and conflicts; don't force their opinions or values on others.
+
+
+INFP
+Idealistic, loyal to their values and to people who are important to them. Want to live a life that is congruent with their values. Curious, quick to see possibilities, can be catalysts for implementing ideas. Seek to understand people and to help them fulfill their potential. Adaptable, flexible, and accepting unless a value is threatened.
+
+
+INTP
+Seek to develop logical explanations for everything that interests them. Theoretical and abstract, interested more in ideas than in social interaction. Quiet, contained, flexible, and adaptable. Have unusual ability to focus in depth to solve problems in their area of interest. Skeptical, sometimes critical, always analytical.
+
+
+ESTP
+Flexible and tolerant, take a pragmatic approach focused on immediate results. Bored by theories and conceptual explanations; want to act energetically to solve the problem. Focus on the here and now, spontaneous, enjoy each moment they can be active with others. Enjoy material comforts and style. Learn best through doing.
+
+
+ESFP
+Outgoing, friendly, and accepting. Exuberant lovers of life, people, and material comforts. Enjoy working with others to make things happen. Bring common sense and a realistic approach to their work and make work fun. Flexible and spontaneous, adapt readily to new people and environments. Learn best by trying a new skill with other people.
+
+
+ENFP
+Warmly enthusiastic and imaginative. See life as full of possibilities. Make connections between events and information very quickly, and confidently proceed based on the patterns they see. Want a lot of affirmation from others, and readily give appreciation and support. Spontaneous and flexible, often rely on their ability to improvise and their verbal fluency.
+
+
+ENTP
+Quick, ingenious, stimulating, alert, and outspoken. Resourceful in solving new and challenging problems. Adept at generating conceptual possibilities and then analyzing them strategically. Good at reading other people. Bored by routine, will seldom do the same thing the same way, apt to turn to one new interest after another.
+
+
+ESTJ
+Practical, realistic, matter-of-fact. Decisive, quickly move to implement decisions. Organize projects and people to get things done, focus on getting results in the most efficient way possible. Take care of routine details. Have a clear set of logical standards, systematically follow them and want others to also. Forceful in implementing their plans.
+
+
+ESFJ
+Warmhearted, conscientious, and cooperative. Want harmony in their environment, work with determination to establish it. Like to work with others to complete tasks accurately and on time. Loyal, follow through even in small matters. Notice what others need in their day-to-day lives and try to provide it. Want to be appreciated for who they are and for what they contribute.
+
+
+ENFJ
+Warm, empathetic, responsive, and responsible. Highly attuned to the emotions, needs, and motivations of others. Find potential in everyone, want to help others fulfill their potential. May act as catalysts for individual and group growth. Loyal, responsive to praise and criticism. Sociable, facilitate others in a group, and provide inspiring leadership.
+
+
+ENTJ
+Frank, decisive, assume leadership readily. Quickly see illogical and inefficient procedures and policies, develop and implement comprehensive systems to solve organizational problems. Enjoy long-term planning and goal setting. Usually well informed, well read, enjoy expanding their knowledge and passing it on to others. Forceful in presenting their ideas.

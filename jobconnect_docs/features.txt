@@ -1,0 +1,75 @@
+JobConnect System Feature Documentation (Detailed)
+
+1. Resume Upload and Parsing
+Users can upload their resumes in PDF or DOCX format. JobConnect uses PyMuPDF and python-docx to parse text content. Extracted data includes:
+- Full name, contact info
+- Work experience (company, title, dates)
+- Skills, tools, and programming languages
+- Education history
+This data is stored securely in Firebase and used to improve job recommendations and recruiter searches.
+
+2. Real-Time Job Recommendations
+Using the extracted resume content, JobConnect compares the user profile with available job listings. It uses keyword matching and semantic similarity to suggest roles that match:
+- Skills (e.g., “Python”, “SolidWorks”, “supply chain”)
+- Job titles (e.g., “Data Analyst”, “Mechanical Engineer”)
+- Industry relevance (e.g., tech, manufacturing)
+
+3. MBTI Personality Test Integration
+The system includes a 70-question MBTI test, modeled after the official framework. User types (e.g., ENTJ, INFP) are stored with timestamps. The assistant uses this data to:
+- Recommend personality-aligned jobs
+- Advise on strengths/weaknesses
+- Track how user traits evolve over time
+
+4. AI Chatbot Assistant (LangChain + OpenAI)
+The chatbot uses LangChain’s `StuffDocumentsChain` + RetrievalQA. It retrieves documents from:
+- Vector store (FAISS)
+- User-specific Firebase records (MBTI, resume)
+The response is generated using a fine-tuned GPT-3.5-turbo model trained on JobConnect logs.
+
+5. Feedback and Fine-Tuning Pipeline
+Each chat message allows “👍 Yes / 👎 No” feedback. These logs are saved per user and can be exported for:
+- Analytics
+- Chatbot retraining
+- QA improvement
+A fine-tuning JSONL is generated using real + synthetic data.
+
+6. Recruiter Dashboard
+Recruiters can:
+- Post jobs
+- View applicants
+- Search resumes
+Access is controlled using Streamlit + Firebase Auth. Roles are:
+- recruiter
+- candidate
+- admin
+
+7. Support Ticket System
+Users can submit support tickets (e.g., bugs, help needed). Each ticket includes:
+- Email
+- Description
+- Timestamp
+- Admin response field
+Admins view and respond through a dashboard interface.
+
+8. Role-Based Streamlit Navigation
+Based on user role in Firebase:
+- Candidates see resume upload, MBTI test, job list
+- Recruiters see job post tools and applicant tracking
+- Admins see support tickets and logs
+
+9. Personalized Resume Feedback
+The chatbot reviews uploaded resume content and gives specific improvement suggestions (e.g., “Add more quantifiable achievements”, “Include a skills section”).
+
+10. Job Save and Apply History
+Users can:
+- Save jobs for later
+- Track applied jobs
+- Prevent duplicate applications
+All stored in Firestore with resume snapshots.
+
+11. GPT Fine-Tuned Brain
+Your assistant uses:
+- `ft:gpt-3.5-turbo-0125:personal::BS6z6ywt`
+- Trained on JobConnect-specific question-answer pairs
+- Combined with vector context + Firebase insights
+This allows highly accurate, brand-specific guidance.

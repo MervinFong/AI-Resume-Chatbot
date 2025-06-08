@@ -1,0 +1,13 @@
+# Ignore environment and secrets
+.env
+firebase-adminsdk.json
+*.json  # optional: ignore all JSONs if you're not committing any
+
+# __pycache__ and other common Python junk
+__pycache__/
+*.pyc
+
+# Streamlit temporary files
+.streamlit/secrets.toml
+temp/
+.venv/

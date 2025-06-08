@@ -1,0 +1,842 @@
+[
+    {
+      "question": "At a party do you:",
+      "scores": [
+        "E",
+        "I"
+      ],
+      "options": [
+        "Interact with many, including strangers",
+        "Interact with a few, known to you"
+      ],
+      "dimension": "E/I"
+    },
+    {
+      "question": "Are you more:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Realistic than speculative",
+        "Speculative than realistic"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Is it worse to:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Have your “head in the clouds”",
+        "Be “in a rut”"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Are you more impressed by:",
+      "scores": [
+        "T",
+        "F"
+      ],
+      "options": [
+        "Principles",
+        "Emotions"
+      ],
+      "dimension": "T/F"
+    },
+    {
+      "question": "Are more drawn toward the:",
+      "scores": [
+        "T",
+        "F"
+      ],
+      "options": [
+        "Convincing",
+        "Touching"
+      ],
+      "dimension": "T/F"
+    },
+    {
+      "question": "Do you prefer to work:",
+      "scores": [
+        "J",
+        "P"
+      ],
+      "options": [
+        "To deadlines",
+        "Just “whenever”"
+      ],
+      "dimension": "J/P"
+    },
+    {
+      "question": "Do you tend to choose:",
+      "scores": [
+        "J",
+        "P"
+      ],
+      "options": [
+        "Rather carefully",
+        "Somewhat impulsively"
+      ],
+      "dimension": "J/P"
+    },
+    {
+      "question": "At parties do you:",
+      "scores": [
+        "E",
+        "I"
+      ],
+      "options": [
+        "Stay late, with increasing energy",
+        "Leave early with decreased energy"
+      ],
+      "dimension": "E/I"
+    },
+    {
+      "question": "Are you more attracted to:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Sensible people",
+        "Imaginative people"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Are you more interested in:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "What is actual",
+        "What is possible"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "At a party do you:",
+      "scores": [
+        "E",
+        "I"
+      ],
+      "options": [
+        "Interact with many, including strangers",
+        "Interact with a few, known to you"
+      ],
+      "dimension": "E/I"
+    },
+    {
+      "question": "Are you more:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Realistic than speculative",
+        "Speculative than realistic"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Is it worse to:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Have your “head in the clouds”",
+        "Be “in a rut”"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Are you more impressed by:",
+      "scores": [
+        "T",
+        "F"
+      ],
+      "options": [
+        "Principles",
+        "Emotions"
+      ],
+      "dimension": "T/F"
+    },
+    {
+      "question": "Are more drawn toward the:",
+      "scores": [
+        "T",
+        "F"
+      ],
+      "options": [
+        "Convincing",
+        "Touching"
+      ],
+      "dimension": "T/F"
+    },
+    {
+      "question": "Do you prefer to work:",
+      "scores": [
+        "J",
+        "P"
+      ],
+      "options": [
+        "To deadlines",
+        "Just “whenever”"
+      ],
+      "dimension": "J/P"
+    },
+    {
+      "question": "Do you tend to choose:",
+      "scores": [
+        "J",
+        "P"
+      ],
+      "options": [
+        "Rather carefully",
+        "Somewhat impulsively"
+      ],
+      "dimension": "J/P"
+    },
+    {
+      "question": "At parties do you:",
+      "scores": [
+        "E",
+        "I"
+      ],
+      "options": [
+        "Stay late, with increasing energy",
+        "Leave early with decreased energy"
+      ],
+      "dimension": "E/I"
+    },
+    {
+      "question": "Are you more attracted to:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Sensible people",
+        "Imaginative people"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Are you more interested in:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "What is actual",
+        "What is possible"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "At a party do you:",
+      "scores": [
+        "E",
+        "I"
+      ],
+      "options": [
+        "Interact with many, including strangers",
+        "Interact with a few, known to you"
+      ],
+      "dimension": "E/I"
+    },
+    {
+      "question": "Are you more:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Realistic than speculative",
+        "Speculative than realistic"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Is it worse to:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Have your “head in the clouds”",
+        "Be “in a rut”"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Are you more impressed by:",
+      "scores": [
+        "T",
+        "F"
+      ],
+      "options": [
+        "Principles",
+        "Emotions"
+      ],
+      "dimension": "T/F"
+    },
+    {
+      "question": "Are more drawn toward the:",
+      "scores": [
+        "T",
+        "F"
+      ],
+      "options": [
+        "Convincing",
+        "Touching"
+      ],
+      "dimension": "T/F"
+    },
+    {
+      "question": "Do you prefer to work:",
+      "scores": [
+        "J",
+        "P"
+      ],
+      "options": [
+        "To deadlines",
+        "Just “whenever”"
+      ],
+      "dimension": "J/P"
+    },
+    {
+      "question": "Do you tend to choose:",
+      "scores": [
+        "J",
+        "P"
+      ],
+      "options": [
+        "Rather carefully",
+        "Somewhat impulsively"
+      ],
+      "dimension": "J/P"
+    },
+    {
+      "question": "At parties do you:",
+      "scores": [
+        "E",
+        "I"
+      ],
+      "options": [
+        "Stay late, with increasing energy",
+        "Leave early with decreased energy"
+      ],
+      "dimension": "E/I"
+    },
+    {
+      "question": "Are you more attracted to:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Sensible people",
+        "Imaginative people"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Are you more interested in:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "What is actual",
+        "What is possible"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "At a party do you:",
+      "scores": [
+        "E",
+        "I"
+      ],
+      "options": [
+        "Interact with many, including strangers",
+        "Interact with a few, known to you"
+      ],
+      "dimension": "E/I"
+    },
+    {
+      "question": "Are you more:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Realistic than speculative",
+        "Speculative than realistic"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Is it worse to:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Have your “head in the clouds”",
+        "Be “in a rut”"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Are you more impressed by:",
+      "scores": [
+        "T",
+        "F"
+      ],
+      "options": [
+        "Principles",
+        "Emotions"
+      ],
+      "dimension": "T/F"
+    },
+    {
+      "question": "Are more drawn toward the:",
+      "scores": [
+        "T",
+        "F"
+      ],
+      "options": [
+        "Convincing",
+        "Touching"
+      ],
+      "dimension": "T/F"
+    },
+    {
+      "question": "Do you prefer to work:",
+      "scores": [
+        "J",
+        "P"
+      ],
+      "options": [
+        "To deadlines",
+        "Just “whenever”"
+      ],
+      "dimension": "J/P"
+    },
+    {
+      "question": "Do you tend to choose:",
+      "scores": [
+        "J",
+        "P"
+      ],
+      "options": [
+        "Rather carefully",
+        "Somewhat impulsively"
+      ],
+      "dimension": "J/P"
+    },
+    {
+      "question": "At parties do you:",
+      "scores": [
+        "E",
+        "I"
+      ],
+      "options": [
+        "Stay late, with increasing energy",
+        "Leave early with decreased energy"
+      ],
+      "dimension": "E/I"
+    },
+    {
+      "question": "Are you more attracted to:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Sensible people",
+        "Imaginative people"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Are you more interested in:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "What is actual",
+        "What is possible"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "At a party do you:",
+      "scores": [
+        "E",
+        "I"
+      ],
+      "options": [
+        "Interact with many, including strangers",
+        "Interact with a few, known to you"
+      ],
+      "dimension": "E/I"
+    },
+    {
+      "question": "Are you more:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Realistic than speculative",
+        "Speculative than realistic"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Is it worse to:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Have your “head in the clouds”",
+        "Be “in a rut”"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Are you more impressed by:",
+      "scores": [
+        "T",
+        "F"
+      ],
+      "options": [
+        "Principles",
+        "Emotions"
+      ],
+      "dimension": "T/F"
+    },
+    {
+      "question": "Are more drawn toward the:",
+      "scores": [
+        "T",
+        "F"
+      ],
+      "options": [
+        "Convincing",
+        "Touching"
+      ],
+      "dimension": "T/F"
+    },
+    {
+      "question": "Do you prefer to work:",
+      "scores": [
+        "J",
+        "P"
+      ],
+      "options": [
+        "To deadlines",
+        "Just “whenever”"
+      ],
+      "dimension": "J/P"
+    },
+    {
+      "question": "Do you tend to choose:",
+      "scores": [
+        "J",
+        "P"
+      ],
+      "options": [
+        "Rather carefully",
+        "Somewhat impulsively"
+      ],
+      "dimension": "J/P"
+    },
+    {
+      "question": "At parties do you:",
+      "scores": [
+        "E",
+        "I"
+      ],
+      "options": [
+        "Stay late, with increasing energy",
+        "Leave early with decreased energy"
+      ],
+      "dimension": "E/I"
+    },
+    {
+      "question": "Are you more attracted to:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Sensible people",
+        "Imaginative people"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Are you more interested in:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "What is actual",
+        "What is possible"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "At a party do you:",
+      "scores": [
+        "E",
+        "I"
+      ],
+      "options": [
+        "Interact with many, including strangers",
+        "Interact with a few, known to you"
+      ],
+      "dimension": "E/I"
+    },
+    {
+      "question": "Are you more:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Realistic than speculative",
+        "Speculative than realistic"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Is it worse to:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Have your “head in the clouds”",
+        "Be “in a rut”"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Are you more impressed by:",
+      "scores": [
+        "T",
+        "F"
+      ],
+      "options": [
+        "Principles",
+        "Emotions"
+      ],
+      "dimension": "T/F"
+    },
+    {
+      "question": "Are more drawn toward the:",
+      "scores": [
+        "T",
+        "F"
+      ],
+      "options": [
+        "Convincing",
+        "Touching"
+      ],
+      "dimension": "T/F"
+    },
+    {
+      "question": "Do you prefer to work:",
+      "scores": [
+        "J",
+        "P"
+      ],
+      "options": [
+        "To deadlines",
+        "Just “whenever”"
+      ],
+      "dimension": "J/P"
+    },
+    {
+      "question": "Do you tend to choose:",
+      "scores": [
+        "J",
+        "P"
+      ],
+      "options": [
+        "Rather carefully",
+        "Somewhat impulsively"
+      ],
+      "dimension": "J/P"
+    },
+    {
+      "question": "At parties do you:",
+      "scores": [
+        "E",
+        "I"
+      ],
+      "options": [
+        "Stay late, with increasing energy",
+        "Leave early with decreased energy"
+      ],
+      "dimension": "E/I"
+    },
+    {
+      "question": "Are you more attracted to:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Sensible people",
+        "Imaginative people"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Are you more interested in:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "What is actual",
+        "What is possible"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "At a party do you:",
+      "scores": [
+        "E",
+        "I"
+      ],
+      "options": [
+        "Interact with many, including strangers",
+        "Interact with a few, known to you"
+      ],
+      "dimension": "E/I"
+    },
+    {
+      "question": "Are you more:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Realistic than speculative",
+        "Speculative than realistic"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Is it worse to:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Have your “head in the clouds”",
+        "Be “in a rut”"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Are you more impressed by:",
+      "scores": [
+        "T",
+        "F"
+      ],
+      "options": [
+        "Principles",
+        "Emotions"
+      ],
+      "dimension": "T/F"
+    },
+    {
+      "question": "Are more drawn toward the:",
+      "scores": [
+        "T",
+        "F"
+      ],
+      "options": [
+        "Convincing",
+        "Touching"
+      ],
+      "dimension": "T/F"
+    },
+    {
+      "question": "Do you prefer to work:",
+      "scores": [
+        "J",
+        "P"
+      ],
+      "options": [
+        "To deadlines",
+        "Just “whenever”"
+      ],
+      "dimension": "J/P"
+    },
+    {
+      "question": "Do you tend to choose:",
+      "scores": [
+        "J",
+        "P"
+      ],
+      "options": [
+        "Rather carefully",
+        "Somewhat impulsively"
+      ],
+      "dimension": "J/P"
+    },
+    {
+      "question": "At parties do you:",
+      "scores": [
+        "E",
+        "I"
+      ],
+      "options": [
+        "Stay late, with increasing energy",
+        "Leave early with decreased energy"
+      ],
+      "dimension": "E/I"
+    },
+    {
+      "question": "Are you more attracted to:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "Sensible people",
+        "Imaginative people"
+      ],
+      "dimension": "S/N"
+    },
+    {
+      "question": "Are you more interested in:",
+      "scores": [
+        "S",
+        "N"
+      ],
+      "options": [
+        "What is actual",
+        "What is possible"
+      ],
+      "dimension": "S/N"
+    }
+  ]

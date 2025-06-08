@@ -1,0 +1,45 @@
+JobConnect Resume Optimization Guide (Advanced)
+
+📥 How Resumes Are Used in JobConnect
+Uploaded resumes power:
+- Job matching (skill/title extraction)
+- Recruiter search filters
+- Resume feedback (via chatbot)
+- Fine-tuning personalization
+
+📄 Required Format
+- PDF or DOCX
+- Must include work history, education, and skills
+- Avoid scanned images (text must be machine-readable)
+
+🔍 Resume Fields We Extract
+✔ Name, phone, email  
+✔ Work experience (title, company, date range)  
+✔ Skills (tools, frameworks, soft skills)  
+✔ Education (institution, degree, year)  
+✔ Certifications (optional)  
+
+🧠 GPT-Based Resume Feedback
+JobConnect can automatically analyze your resume and respond to questions like:
+- “What should I improve?”
+- “Why am I not getting matches?”
+- “Which jobs best match this resume?”
+
+📌 Resume Tips:
+1. Use strong action verbs (e.g., Led, Designed, Deployed, Improved)
+2. Quantify impact (e.g., “Reduced defects by 30%”)
+3. Align skills with target job roles
+4. Keep to 1–2 pages unless senior
+5. Avoid jargon or overly generic terms
+
+🎯 Best Practices:
+- Tailor each resume for a specific role
+- Match keywords to actual job postings
+- Keep formatting simple and clean
+- Update regularly (new skills, recent roles)
+
+🔐 Security:
+Uploaded resumes are stored securely via Firebase and are only visible to the user and authorized recruiters.
+
+✉️ Need help?
+Use the “Support Tickets” system to get personalized advice from admins.

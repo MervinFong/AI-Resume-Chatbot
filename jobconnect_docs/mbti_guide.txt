@@ -1,0 +1,32 @@
+MBTI Integration in JobConnect (Full Guide)
+
+🔍 What is MBTI?
+MBTI stands for Myers-Briggs Type Indicator. It classifies personality into 16 types based on 4 dichotomies:
+1. Introversion (I) vs. Extraversion (E)
+2. Sensing (S) vs. Intuition (N)
+3. Thinking (T) vs. Feeling (F)
+4. Judging (J) vs. Perceiving (P)
+
+🧠 MBTI in JobConnect
+- Each user completes a 70-question form
+- The result is stored with a timestamp in Firestore
+- Used to customize job suggestions and chatbot answers
+
+🧩 Example Personality Types and Jobs
+- INTJ (The Architect): Strategic, long-term planners. Ideal for roles in data science, R&D, systems architecture.
+- ENFP (The Campaigner): Energetic and creative. Suitable for HR, marketing, customer success, public relations.
+- ISTP (The Virtuoso): Practical, problem-solving. Great for technicians, engineers, operations, or field service.
+- ISFJ (The Defender): Reliable and caring. Often successful in healthcare, teaching, support roles.
+
+📊 How It’s Used
+- Personality-aware chatbot prompts
+- “Based on your MBTI type, you may enjoy roles in...”
+- Historical MBTI logs to track self-development
+
+✅ Benefits
+- Improves job satisfaction by aligning personality with job type
+- Encourages self-reflection for candidates
+- Helps recruiters understand candidate temperament beyond the resume
+
+🛠️ Admin Note:
+All MBTI results are stored in the collection `mbti_results`, field `result`, and timestamped.
