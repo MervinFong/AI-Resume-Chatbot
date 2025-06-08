@@ -20,6 +20,7 @@ import nltk
 # === Download required NLTK data ===
 nltk_data_dir = "/tmp/nltk_data"
 nltk.download("punkt", download_dir=nltk_data_dir, quiet=True)
+nltk.download("punkt_tab", download_dir=nltk_data_dir, quiet=True)
 nltk.data.path.append(nltk_data_dir)
 
 # === Device Setup ===
@@ -114,13 +115,12 @@ def format_t5_output_to_chatbot(text):
         suggestions = data.get("suggestions", [])
         summary = data.get("analysis_summary", "")
         bullets = "\n".join(f"- {s}" for s in suggestions)
-        return f"📋 **Suggestions:**\n{bullets}\n\n📝 **Summary:**\n{summary}"
+        return f"\ud83d\udccb **Suggestions:**\n{bullets}\n\n\ud83d\udcdd **Summary:**\n{summary}"
     except Exception:
-        return f"⚠️ Could not format the output.\n\nRaw Output:\n{text}"
+        return f"\u26a0\ufe0f Could not format the output.\n\nRaw Output:\n{text}"
 
 def get_internal_jobs(db, user_query):
     from spacy.lang.en.stop_words import STOP_WORDS
-
     nlp_query = nlp(user_query.lower())
     query_keywords = [token.text for token in nlp_query if not token.is_stop and not token.is_punct]
 
@@ -134,13 +134,10 @@ def get_internal_jobs(db, user_query):
         data = doc.to_dict()
         if data.get("source", "") == "jobstreet":
             continue
-
         title = data.get("job_title", "").lower()
         company = data.get("company_name", "")
         description = data.get("job_description", "").lower()
-
         match_score = sum(1 for kw in query_keywords if kw in title or kw in description)
-
         if match_score > 0:
             job_matches.append((match_score, f"- {data['job_title']} at {company}"))
 
@@ -159,7 +156,7 @@ def get_jobstreet_jobs_from_firestore(db, user_query):
         data = doc.to_dict()
         title = data.get("job_title", "")
         title_doc = nlp(title.lower())
-        if user_doc.similarity(title_doc) > 0.75:
+        if user_doc.similarity(title_doc) > 0.65:  # relaxed threshold
             link = data.get("link")
             if link:
                 jobs.append(f"- {link}")
@@ -190,7 +187,7 @@ def get_personalized_chain(db, email):
             refined_raw = run_t5_refiner(resume_text)
             refined = format_t5_output_to_chatbot(refined_raw)
             return {
-                "output_text": f"📄 I’ve analyzed your uploaded resume.\n\nPredicted Category: **{category}**\n\nHere’s a suggested refinement:\n\n{refined}",
+                "output_text": f"\ud83d\udcc4 I’ve analyzed your uploaded resume.\n\nPredicted Category: **{category}**\n\nHere’s a suggested refinement:\n\n{refined}",
                 "input_documents": [],
                 "resume_pdf": None
             }
@@ -205,12 +202,12 @@ def get_personalized_chain(db, email):
                 if mbti_type:
                     rag_info = mbti_rag_response(mbti_type)
                     return {
-                        "output_text": f"🧠 Your MBTI type is **{mbti_type}**.\n\n{rag_info}",
+                        "output_text": f"\ud83e\udde0 Your MBTI type is **{mbti_type}**.\n\n{rag_info}",
                         "input_documents": [],
                         "resume_pdf": None
                     }
             return {
-                "output_text": "❌ No MBTI result found. Please take the MBTI test in the system first.",
+                "output_text": "\u274c No MBTI result found. Please take the MBTI test in the system first.",
                 "input_documents": [],
                 "resume_pdf": None
             }
@@ -219,7 +216,7 @@ def get_personalized_chain(db, email):
             refined_raw = run_t5_refiner(resume_text)
             refined = format_t5_output_to_chatbot(refined_raw)
             return {
-                "output_text": f"✅ Your resume has been refined.\n\n{refined}",
+                "output_text": f"\u2705 Your resume has been refined.\n\n{refined}",
                 "input_documents": [],
                 "resume_pdf": None
             }
@@ -227,7 +224,7 @@ def get_personalized_chain(db, email):
         if intent == "analyze_resume" and resume_text:
             analysis = analyze_resume(resume_text)
             return {
-                "output_text": f"🔍 Resume Analysis Result:\n{analysis}",
+                "output_text": f"\ud83d\udd0d Resume Analysis Result:\n{analysis}",
                 "input_documents": [],
                 "resume_pdf": None
             }
@@ -236,10 +233,10 @@ def get_personalized_chain(db, email):
             internal_jobs = get_internal_jobs(db, user_input)
             scraped_links = get_jobstreet_jobs_from_firestore(db, user_input)
 
-            response_text = """🗂️ Internal Job Postings:
+            response_text = """\ud83d\udcc2 Internal Job Postings:
 {}
 
-🔗 Additional JobStreet Listings:
+\ud83d\udd17 Additional JobStreet Listings:
 {}""".format(
                 "\n".join(internal_jobs) or "- No internal listings available.",
                 "\n".join(scraped_links) or "- No JobStreet results found."
