@@ -2,8 +2,8 @@ import streamlit as st
 import base64
 import os 
 
-if not os.path.exists("t5model_v4") or not os.path.exists("distilbert_resume_classifier_v2"):
-    st.error("❌ Model folders not found. Please ensure 't5model_v4' and 'distilbert_resume_classifier_v2' exist in the project root.")
+if not os.path.exists("t5model_v5") or not os.path.exists("distilbert_resume_classifier_v2"):
+    st.error("❌ Model folders not found. Please ensure 't5model_v5' and 'distilbert_resume_classifier_v2' exist in the project root.")
 
 # --- SETUP ---
 
