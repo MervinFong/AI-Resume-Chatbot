@@ -1,18 +1,17 @@
-# Register.py
-
-import streamlit as st
-from firebase_admin import auth
 from firebase_config import init_firebase
+from firebase_admin import auth 
+import streamlit as st
 import re
 import time
 import base64
 import requests
+import json
 
 # Initialize Firebase
 db = init_firebase()
 
 # Firebase Web API Key
-FIREBASE_API_KEY = "AIzaSyB6g00OOTaV2Eri0yPwvBBGJQF_pTYE7p0"  # <-- your key here!
+FIREBASE_API_KEY = st.secrets["FIREBASE_API_KEY"]  
 
 # Helper functions
 def firebase_login(email, password):
