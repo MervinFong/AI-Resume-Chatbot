@@ -2,6 +2,13 @@ import streamlit as st
 import base64
 import os 
 from model_loader import ensure_models_downloaded
+import nltk
+
+NLTK_PATH = "/tmp/nltk_data"
+nltk.data.path.append(NLTK_PATH)
+
+# Ensure punkt is downloaded before use
+nltk.download("punkt", download_dir=NLTK_PATH, quiet=True)
 
 # Download models if not already present
 ensure_models_downloaded()
