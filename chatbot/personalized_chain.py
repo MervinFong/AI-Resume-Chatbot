@@ -17,9 +17,10 @@ from fpdf import FPDF
 from sentence_transformers import SentenceTransformer, util
 import nltk
 
-nltk.download("punkt", quiet=False)
-nltk.download("punkt", download_dir="/tmp/nltk_data", quiet=False)
-nltk.data.path.append("/tmp/nltk_data")
+# === Download required NLTK data ===
+nltk_data_dir = "/tmp/nltk_data"
+nltk.download("punkt", download_dir=nltk_data_dir, quiet=True)
+nltk.data.path.append(nltk_data_dir)
 
 # === Device Setup ===
 torch_device = "cuda" if torch.cuda.is_available() else "cpu"

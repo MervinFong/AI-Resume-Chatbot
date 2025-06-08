@@ -31,10 +31,9 @@ t5_model = T5ForConditionalGeneration.from_pretrained(
 )
 
 # === Download required NLTK data ===
-nltk.download("punkt", quiet=False)
-# Force correct NLTK path for punkt_tab issue
-nltk.download("punkt", download_dir="/tmp/nltk_data", quiet=False)
-nltk.data.path.append("/tmp/nltk_data")
+nltk_data_dir = "/tmp/nltk_data"
+nltk.download("punkt", download_dir=nltk_data_dir, quiet=True)
+nltk.data.path.append(nltk_data_dir)
 
 # === Load spaCy model ===
 nlp = spacy.load("en_core_web_md")
